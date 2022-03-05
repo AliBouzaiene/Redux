@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+.btn{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(31, 200, 223);  
+  color: black;  
+  font-weight: bold;
+
+}
+.task{
+  width: 200px;
+  height: 30px;
+}
+.Description{
+  text-align: left;  
+}
+.body{  
+  border: 4px solid rgb(102, 99, 97);
+  padding: 3px;  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
